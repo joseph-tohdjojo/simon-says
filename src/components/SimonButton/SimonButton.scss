@@ -1,0 +1,44 @@
+.wrapper {
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 24.5rem;
+  outline: none;
+  width: 24.5rem;
+}
+
+.blue {
+  background-color: hsl(225, 100%, 30%);
+
+  &.active,
+  &:active {
+    background-color: hsl(225, 100%, 50%);
+  }
+}
+
+.red {
+  background-color: hsl(0, 100%, 30%);
+
+  &.active,
+  &:active {
+    background-color: hsl(0, 100%, 50%);
+  }
+}
+
+.yellow {
+  background-color: hsl(45, 100%, 30%);
+
+  &.active,
+  &:active {
+    background-color: hsl(45, 100%, 50%);
+  }
+}
+
+.green {
+  background-color: hsl(100, 100%, 30%);
+
+  &.active,
+  &:active {
+    background-color: hsl(100, 100%, 50%);
+  }
+}

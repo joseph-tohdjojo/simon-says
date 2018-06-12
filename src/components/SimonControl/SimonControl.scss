@@ -1,0 +1,16 @@
+.wrapper {
+  align-items: center;
+  background: #fff;
+  border: 0.5rem solid #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  height: 25rem;
+  justify-content: space-around;
+  left: 50%;
+  padding: 0 1rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+}

@@ -1,0 +1,46 @@
+.wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.light,
+.button {
+  margin-bottom: 1rem;
+}
+
+.light {
+  background-color: #333;
+  border: 0.2rem solid #333;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+
+  &.active {
+    background-color: red;
+  }
+}
+
+.button {
+  border: 0.5rem solid #333;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+  cursor: pointer;
+  height: 3rem;
+  outline: none;
+  width: 3rem;
+
+  &.active {
+    box-shadow: none;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.count {
+  background: #333;
+  border: 2px solid #777;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: red;
+  font-family: 'VT323', monospace;
+  font-size: 5.2rem;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
